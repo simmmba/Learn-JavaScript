@@ -1,1 +1,1 @@
-# LearnJavaScript
+# JavaScript 문법 + 실습 공부 Repository
