@@ -9,12 +9,6 @@ function solution(arr){
 
     else{
         while(!(list.length === 1 && list[0] === 1)){
-            // const count = list.reduce((acc, curr, idx) => {
-            //     if(acc[idx]) acc[idx] += 1;
-            //     else acc[idx] = 1;
-            //     answer++;
-            //     return acc;
-            //   }, {});
             temp.push(1);
             for(let i = 1; i < list.length; i++){
                 if(list[i] === list[i-1]) temp[temp.length-1]++;
